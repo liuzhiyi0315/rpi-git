@@ -6,4 +6,4 @@ apk upgrade && \
 apk add bash git openssh && \
 rm -rf /var/cache/apk/*
 
-CMD ["/bin/bash"]
+CMD ["git"]
